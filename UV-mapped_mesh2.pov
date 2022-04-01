@@ -37,7 +37,7 @@ global_settings { assumed_gamma 1.0 }
 #declare pC = vrotate(pB, -120*y);
 
 #declare Radius = 0.01;
-#declare PyramideFrame =
+#declare PyramidFrame =
     union {
         sphere {
             pT, 2*Radius
@@ -75,7 +75,7 @@ global_settings { assumed_gamma 1.0 }
 //  <0/W, 2/H> for Upper Left
 //  <6/W, 2/H> for Upper Right
   
-#declare PyramideMesh =
+#declare PyramidMesh =
     mesh {
         triangle {
             pA, pT, pB
@@ -105,20 +105,20 @@ global_settings { assumed_gamma 1.0 }
         }
     }
 
-#declare Pyramide =
+#declare Pyramid =
     union {
-        object { PyramideFrame }
-        object { PyramideMesh }
+        object { PyramidFrame }
+        object { PyramidMesh }
     }
 
 object {
-    Pyramide
+    Pyramid
     rotate 10*y
     translate -0.8*x
 }
 
 object {
-    Pyramide
+    Pyramid
     rotate 140*y
     rotate 40*x
     translate +0.8*x
