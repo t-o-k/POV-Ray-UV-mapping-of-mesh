@@ -178,7 +178,7 @@ mesh2 {
 
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7
 
-#declare URL = "https://github.com/t-o-k/POV-Ray-UV-mapping-of-mesh2"
+#declare URL = "https://github.com/t-o-k/POV-Ray-UV-mapping-of-mesh"
 
 text {
     ttf "timrom.ttf" URL 1, 0
