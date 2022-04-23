@@ -1,7 +1,7 @@
 // ===== 1 ======= 2 ======= 3 ======= 4 ======= 5 ======= 6 ======= 7
 /*
 
-https://github.com/t-o-k/POV-Ray-UV-mapping-of-mesh2
+https://github.com/t-o-k/POV-Ray-UV-mapping-of-mesh
 
 Copyright (c) 2022 Tor Olav Kristensen, http://subcube.com
 
